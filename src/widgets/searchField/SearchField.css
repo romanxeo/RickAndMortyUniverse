@@ -1,0 +1,12 @@
+.css-input {
+    font-size:16px;
+    border-width:2px;
+    border-color:#cccccc;
+    border-style:solid;
+    border-radius:20px;
+    padding:6px;
+}
+
+.css-input:focus {
+    outline:none;
+}

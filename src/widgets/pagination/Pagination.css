@@ -1,0 +1,5 @@
+.pagination {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+}
