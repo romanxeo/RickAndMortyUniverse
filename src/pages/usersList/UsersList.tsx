@@ -30,7 +30,7 @@ function UsersList () {
       {loading
         ? <Loader />
         : (usersList.length === 0
-          ? <div>No data</div>
+          ? <div>No data.</div>
           : <Pagination />
         )
       }
