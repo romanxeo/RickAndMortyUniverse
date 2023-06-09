@@ -12,4 +12,5 @@ export default defineConfig({
   },
   plugins: [react()],
   customLogger: createLogger('info', { prefix: '[coderpad]' }),
+  base: '/RickAndMortyUniverse/',
 })
