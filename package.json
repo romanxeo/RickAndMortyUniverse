@@ -2,11 +2,15 @@
   "name": "react-template",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://romanxeo.github.io/RickAndMortyUnivers",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@apollo/client": "^3.7.14",
+    "gh-pages": "^5.0.0",
     "graphql": "^16.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
